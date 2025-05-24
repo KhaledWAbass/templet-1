@@ -419,3 +419,11 @@ body {
   color: var(--main-color);
 }
 /* End Footer */
+.scroller {
+  position: fixed;
+  top : 0;
+  z-index: 9999;
+  left : 0;
+  height: 7px;
+  background-color: var(--main-color);
+}
