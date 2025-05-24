@@ -44,6 +44,25 @@ body {
   }
 }
 /* End Global Rules */
+.landing .intro-text .Greating{
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 350px;
+  font-size: 60px;
+  background-size: cover;
+  font-weight: 900;
+  background-image: url("../images/portfolio-3.jpg");
+  color: transparent;
+}
+.landing .intro-text p{
+  background-size: cover;
+  font-weight: 900;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("../images/portfolio-3.jpg");
+  color: transparent;
+  font-size: 25px;
+}
 /* Start Components */
 .special-heading {
   color: #ebeced;
@@ -419,3 +438,11 @@ body {
   color: var(--main-color);
 }
 /* End Footer */
+.scroller {
+  position: fixed;
+  top : 0;
+  z-index: 9999;
+  left : 0;
+  height: 7px;
+  background-color: var(--main-color);
+}
