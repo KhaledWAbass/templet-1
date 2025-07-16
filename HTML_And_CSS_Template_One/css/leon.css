@@ -106,6 +106,7 @@ body {
   width: 100%;
 }
 .header .links .icon {
+  transition: var(--main-duration);
   width: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -132,6 +133,7 @@ body {
   padding: 0;
   background-color: #f6f6f6;
   position: absolute;
+  transition: all 0.3s ease;
   right: 0;
   min-width: 200px;
   top: calc(100% + 15px);
@@ -139,6 +141,7 @@ body {
   z-index: 1;
 }
 .header .links ul::before {
+  transition: var(--main-duration);
   content: "";
   border-width: 10px;
   border-style: solid;
@@ -149,6 +152,8 @@ body {
 }
 .header .links:hover ul {
   display: block;
+  transition: var(--main-duration);
+
 }
 .header .links ul li a {
   display: block;
@@ -292,6 +297,7 @@ body {
 }
 .portfolio .portfolio-content .card {
   background-color: white;
+  padding: 10px;
 }
 .portfolio .portfolio-content .card img {
   max-width: 100%;
