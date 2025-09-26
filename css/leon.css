@@ -43,7 +43,7 @@ body {
   font-weight: bold;
   bottom: 20px;
   cursor: pointer;
-  left: 20px;
+  right: 20px;
   background-color: var(--main-color);
   color: white;
   border-radius: 50%;
